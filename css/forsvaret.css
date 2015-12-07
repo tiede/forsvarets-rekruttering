@@ -1,0 +1,232 @@
+kill body .carousel {
+    position: initial;
+    height: 100%;
+}
+
+body .carousel .item, body .carousel {
+    height: 620px;
+}
+
+body .carousel-inner > .item > img {
+    height: 100%;
+}
+.carousel-caption {
+    margin-top: -30px;
+}
+
+.carousel-caption h1 {
+    font-size: 69px;
+}
+
+body .navbar-wrapper nav.navbar {
+    height: 85px;
+    background-color: #1A1A1A;
+    border: 0;
+}
+
+body .navbar-wrapper nav.navbar .nav.navbar-nav {
+    float: right;
+    margin-top: 18px;
+}
+
+    body .navbar-wrapper nav.navbar ul li a{
+        color: #FFF;
+        padding-bottom: 32px;
+    }
+
+    body .navbar-wrapper nav.navbar ul li a:hover{
+        color: #D9534F;
+    }
+
+    body .navbar-wrapper nav.navbar ul li.active a, body .navbar-wrapper nav.navbar ul li.active a:hover{
+        background-color: #1A1A1A;
+        color: #fff;
+        border-bottom: solid 3px #D9534F;
+        padding-bottom: 30px;
+    }
+
+    body .navbar-wrapper nav.navbar .container {
+        max-width: 1000px;
+    }
+
+.img-circle.sectors {
+    height: 140px;
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+    background-color:#1A1A1A;
+}
+
+.education-tile {
+    color: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+.nav-pills.red > li.active > a, .nav-pills.red > li.active > a:focus, .nav-pills.red > li.active > a:hover {
+    background-color: #D9534F;
+    color: #fff;
+}
+
+.list-group-item.active > .badge, .nav-pills.red > .active > a > .badge, .nav.nav-pills.red a{
+    color: #D9534F;
+}
+
+
+.form-group .nav.nav-pills {
+display: inline-block;
+vertical-align: middle;
+margin-left: 20px;
+}
+
+.form-group label {
+    min-width: 130px;
+}
+
+.education-tile {
+    display: block;
+    height: 250px;
+}
+
+    .education-tile:hover h2, .education-tile:hover p, .education-tile:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a.education-tile:hover h2 {
+        text-decoration: underline;
+    }
+
+
+    .education-tile h2 {
+        margin: -20px -20px 5px -20px;
+        padding: 10px 18px;
+        background-color: rgba(0,0,0,0.6);
+        border-bottom: solid 3px #D9534F;
+        max-height: 50px;
+        overflow: hidden;
+    }
+
+    .education-tile p{
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    }
+
+.text-gradient {
+    background: url('../images/black-gradient.png') repeat-x top;
+    margin: -5px -20px 0px;
+    min-height: 196px;
+    padding: 14px;
+}
+
+
+.entrence {
+    height: 540px;
+padding-top: 90px;
+
+}
+
+.area {
+background-color: #F1F1F1;
+margin-top: -59px;
+margin-bottom: 60px;
+border-bottom: 3px solid #D9534F;
+}
+
+    .entrence .col-lg-6 h2,  .entrence .col-lg-6 p{
+        text-align: center;
+    }
+
+    .entrence h2 {
+    }
+
+.area-tile {
+height: 140px;
+width: 140px;
+display: block;
+margin: 0px auto;
+}
+
+.panel {
+    margin-top: 22px;
+    margin-bottom: 0;
+    background-color: #1a1a1a;
+    border-bottom: 3px solid #D9534F;
+
+}
+
+.panel h4{
+    color: #fff;
+padding-left: 13px;
+}
+
+.panel-body {
+    border: solid 1px #f1f1f1;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.panel-body ul {
+    padding: 0;
+    margin: 0px 0px 8px 0px;
+    list-style: none;
+
+}
+
+.panel-body ul li{
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+
+.panel-body ul li a{
+    display: block;
+    padding: 10px 0;
+}
+
+    .panel-body h5 {
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+.filters {
+    padding-bottom: 17px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #EEE;
+    display: none;
+}
+
+.filter-container {
+    width: 50%;
+    float:left;
+    padding: 20px;
+}
+
+.filter-container select{
+    display: none;    
+}
+
+body .ui-state-default, body .ui-widget-content .ui-state-default, body .ui-widget-header .ui-state-default {
+    width: 31px;
+    height: 32px;
+    margin-top: -6px;
+    background: #607d8b;
+    border-color: #506975;
+    cursor: move;
+}
+
+body .ui-widget-content {
+    border:0;
+    background: url('../images/slider-track.png') repeat-x;
+}
+
+body .ui-slider-horizontal .ui-slider-range {
+    background: url('../images/slider-track-selected.png') repeat-x;
+}
+
+.filter-container label {
+    margin-bottom: 25px;
+}
